@@ -1,0 +1,18 @@
+{
+  "model": "model_a_320",
+  "imgsz": 320,
+  "batch": 1,
+  "precision": "FP32",
+  "fused": true,
+  "device": "NVIDIA GeForce RTX 3060 Laptop GPU",
+  "warmup_passes": 20,
+  "repeats": 3,
+  "images": 80,
+  "measurements": 240,
+  "peak_allocated_MiB": 17.07177734375,
+  "peak_reserved_MiB": 36.0,
+  "scope": "GPU-resident fused forward only; excludes preprocessing, transfers and NMS",
+  "mean_ms": 6.282472500121609,
+  "median_ms": 6.1671000003116205,
+  "fps": 159.17300075418444
+}

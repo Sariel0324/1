@@ -1,0 +1,27 @@
+{
+  "status": "success",
+  "requested": {
+    "data": "C:\\MMA3001\\project\\training_data.yaml",
+    "imgsz": 320,
+    "epochs": 1,
+    "batch": 4,
+    "seed": 42,
+    "name": "smoke_test",
+    "output_dir": "C:\\MMA3001\\project\\runs"
+  },
+  "torch": "2.4.1+cu121",
+  "ultralytics": "8.4.184",
+  "gpu": "NVIDIA GeForce RTX 3060 Laptop GPU",
+  "best_validation_metrics": {
+    "metrics/precision(B)": 0.7144156316784107,
+    "metrics/recall(B)": 0.1801924473493101,
+    "metrics/mAP50(B)": 0.1916243446646144,
+    "metrics/mAP50-95(B)": 0.09754341734555992,
+    "fitness": 0.09754341734555992
+  },
+  "actual_batch": 4,
+  "oom_retries_last_epoch": 0,
+  "epochs_completed": 1,
+  "stopped_early": false,
+  "elapsed_seconds": 95.43675359999179
+}

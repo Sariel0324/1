@@ -1,0 +1,3 @@
+model,imgsz,batch,precision,fused,device,warmup_passes,repeats,images,measurements,peak_allocated_MiB,peak_reserved_MiB,scope,mean_ms,median_ms,fps
+model_a_320,320,1,FP32,True,NVIDIA GeForce RTX 3060 Laptop GPU,20,3,80,240,17.07177734375,36.0,"GPU-resident fused forward only; excludes preprocessing, transfers and NMS",6.282472500121609,6.1671000003116205,159.17300075418444
+model_b_640,640,1,FP32,True,NVIDIA GeForce RTX 3060 Laptop GPU,20,3,80,240,32.94091796875,58.0,"GPU-resident fused forward only; excludes preprocessing, transfers and NMS",5.7715854166114395,5.616449998342432,173.2626181225454

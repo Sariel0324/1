@@ -1,0 +1,10 @@
+{
+  "torch": "2.4.1+cu121",
+  "ultralytics": "8.4.184",
+  "cuda": "12.1",
+  "device": "NVIDIA GeForce RTX 3060 Laptop GPU",
+  "seed": 42,
+  "cudnn_benchmark": false,
+  "cudnn_deterministic": true,
+  "limitation": "Wrinkle has no ground truth in validation or test and cannot be evaluated."
+}

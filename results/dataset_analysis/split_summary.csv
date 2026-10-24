@@ -1,0 +1,4 @@
+﻿split,images,label_files,total_boxes,valid_boxes,empty_labels,missing_labels,missing_images,invalid_class_ids,invalid_coordinates,malformed_rows,unreadable_labels
+train,3349,3349,2923,2923,684,0,0,0,0,0,0
+valid,120,120,121,121,14,0,0,0,0,0,0
+test,80,80,79,79,12,0,0,0,0,0,0

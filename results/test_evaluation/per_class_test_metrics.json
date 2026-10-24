@@ -1,0 +1,122 @@
+[
+  {
+    "model": "model_a_320",
+    "split": "test",
+    "class_id": 0,
+    "class_name": "loose-meat",
+    "ground_truth_boxes": 3,
+    "precision": 1.0,
+    "recall": 0.0,
+    "mAP50": 0.0403030303030303,
+    "mAP50_95": 0.030242424242424237,
+    "status": "evaluated"
+  },
+  {
+    "model": "model_a_320",
+    "split": "test",
+    "class_id": 1,
+    "class_name": "packaging-error",
+    "ground_truth_boxes": 23,
+    "precision": 0.5263397997715602,
+    "recall": 0.3867631822710021,
+    "mAP50": 0.3918070952258689,
+    "mAP50_95": 0.09313441423233437,
+    "status": "evaluated"
+  },
+  {
+    "model": "model_a_320",
+    "split": "test",
+    "class_id": 2,
+    "class_name": "twisted-meat",
+    "ground_truth_boxes": 4,
+    "precision": 1.0,
+    "recall": 0.0,
+    "mAP50": 0.04664728682170542,
+    "mAP50_95": 0.029164728682170543,
+    "status": "evaluated"
+  },
+  {
+    "model": "model_a_320",
+    "split": "test",
+    "class_id": 3,
+    "class_name": "unsealed",
+    "ground_truth_boxes": 49,
+    "precision": 0.8261820324943967,
+    "recall": 0.7760345771757284,
+    "mAP50": 0.8464924218776737,
+    "mAP50_95": 0.5897697609449221,
+    "status": "evaluated"
+  },
+  {
+    "model": "model_a_320",
+    "split": "test",
+    "class_id": 4,
+    "class_name": "wrinkle",
+    "ground_truth_boxes": 0,
+    "precision": null,
+    "recall": null,
+    "mAP50": null,
+    "mAP50_95": null,
+    "status": "not_evaluable_no_ground_truth"
+  },
+  {
+    "model": "model_b_640",
+    "split": "test",
+    "class_id": 0,
+    "class_name": "loose-meat",
+    "ground_truth_boxes": 3,
+    "precision": 1.0,
+    "recall": 0.0,
+    "mAP50": 0.09749999999999999,
+    "mAP50_95": 0.04677631578947368,
+    "status": "evaluated"
+  },
+  {
+    "model": "model_b_640",
+    "split": "test",
+    "class_id": 1,
+    "class_name": "packaging-error",
+    "ground_truth_boxes": 23,
+    "precision": 0.5482965897819972,
+    "recall": 0.391304347826087,
+    "mAP50": 0.4548989083380387,
+    "mAP50_95": 0.12146698777577629,
+    "status": "evaluated"
+  },
+  {
+    "model": "model_b_640",
+    "split": "test",
+    "class_id": 2,
+    "class_name": "twisted-meat",
+    "ground_truth_boxes": 4,
+    "precision": 1.0,
+    "recall": 0.0,
+    "mAP50": 0.003951612903225807,
+    "mAP50_95": 0.0011854838709677421,
+    "status": "evaluated"
+  },
+  {
+    "model": "model_b_640",
+    "split": "test",
+    "class_id": 3,
+    "class_name": "unsealed",
+    "ground_truth_boxes": 49,
+    "precision": 0.8802208705272438,
+    "recall": 0.8163265306122449,
+    "mAP50": 0.8756267299948219,
+    "mAP50_95": 0.5802340354446345,
+    "status": "evaluated"
+  },
+  {
+    "model": "model_b_640",
+    "split": "test",
+    "class_id": 4,
+    "class_name": "wrinkle",
+    "ground_truth_boxes": 0,
+    "precision": null,
+    "recall": null,
+    "mAP50": null,
+    "mAP50_95": null,
+    "status": "not_evaluable_no_ground_truth"
+  }
+]

@@ -1,0 +1,28 @@
+============================= test session starts =============================
+platform win32 -- Python 3.12.4, pytest-9.1.1, pluggy-1.7.0 -- C:\Python\python.exe
+cachedir: .pytest_cache
+rootdir: C:\MMA3001\project
+plugins: anyio-4.15.1
+collecting ... collected 18 items
+
+tests/test_evaluation.py::test_valid_and_empty_labels PASSED             [  5%]
+tests/test_evaluation.py::test_reject_invalid_labels[5 0.5 0.5 0.2 0.2] PASSED [ 11%]
+tests/test_evaluation.py::test_reject_invalid_labels[-1 0.5 0.5 0.2 0.2] PASSED [ 16%]
+tests/test_evaluation.py::test_reject_invalid_labels[0.5 0.5 0.5 0.2 0.2] PASSED [ 22%]
+tests/test_evaluation.py::test_reject_invalid_labels[0 nan 0.5 0.2 0.2] PASSED [ 27%]
+tests/test_evaluation.py::test_reject_invalid_labels[0 0.5 0.5 0 0.2] PASSED [ 33%]
+tests/test_evaluation.py::test_reject_invalid_labels[0 1.1 0.5 0.2 0.2] PASSED [ 38%]
+tests/test_evaluation.py::test_reject_invalid_labels[0 0.5 0.5 -0.2 0.2] PASSED [ 44%]
+tests/test_evaluation.py::test_reject_invalid_labels[0 0.5 0.5 0.2] PASSED [ 50%]
+tests/test_evaluation.py::test_reject_invalid_labels[bad 0.5 0.5 0.2 0.2] PASSED [ 55%]
+tests/test_evaluation.py::test_reject_invalid_labels[0 inf 0.5 0.2 0.2] PASSED [ 61%]
+tests/test_evaluation.py::test_configuration_consistency PASSED          [ 66%]
+tests/test_evaluation.py::test_class_names PASSED                        [ 72%]
+tests/test_evaluation.py::test_latency_statistics PASSED                 [ 77%]
+tests/test_evaluation.py::test_absent_class_is_not_zero PASSED           [ 83%]
+tests/test_evaluation.py::test_example_box_matching PASSED               [ 88%]
+tests/test_evaluation.py::test_audit_pairing_and_invalid_rows PASSED     [ 94%]
+tests/test_evaluation.py::test_missing_split_fails PASSED                [100%]
+
+- generated xml file: C:\MMA3001\project\results\test_evaluation\pytest_portability.xml -
+============================= 18 passed in 3.40s ==============================

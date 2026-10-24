@@ -1,0 +1,27 @@
+{
+  "status": "success",
+  "requested": {
+    "data": "C:\\MMA3001\\project\\training_data.yaml",
+    "imgsz": 640,
+    "epochs": 15,
+    "batch": 4,
+    "seed": 42,
+    "name": "experiment_b_640",
+    "output_dir": "C:\\MMA3001\\project\\runs"
+  },
+  "torch": "2.4.1+cu121",
+  "ultralytics": "8.4.184",
+  "gpu": "NVIDIA GeForce RTX 3060 Laptop GPU",
+  "best_validation_metrics": {
+    "metrics/precision(B)": 0.42902416242536057,
+    "metrics/recall(B)": 0.454520697167756,
+    "metrics/mAP50(B)": 0.4271591140184118,
+    "metrics/mAP50-95(B)": 0.24308991994923015,
+    "fitness": 0.24308991994923015
+  },
+  "actual_batch": 4,
+  "oom_retries_last_epoch": 0,
+  "epochs_completed": 15,
+  "stopped_early": false,
+  "elapsed_seconds": 1580.0005054000067
+}

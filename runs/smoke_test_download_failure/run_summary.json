@@ -1,0 +1,16 @@
+{
+  "status": "failed",
+  "requested": {
+    "data": "C:\\MMA3001\\project\\training_data.yaml",
+    "imgsz": 320,
+    "epochs": 1,
+    "batch": 4,
+    "seed": 42,
+    "name": "smoke_test",
+    "output_dir": "C:\\MMA3001\\project\\runs"
+  },
+  "torch": "2.4.1+cu121",
+  "ultralytics": "8.4.184",
+  "gpu": "NVIDIA GeForce RTX 3060 Laptop GPU",
+  "elapsed_seconds": 0.3779191999929026
+}

@@ -1,0 +1,93 @@
+{
+  "overall": {
+    "model": "model_a_320",
+    "split": "test",
+    "images": 80,
+    "ground_truth_boxes": 79,
+    "imgsz": 320,
+    "precision": 0.8381304580664892,
+    "recall": 0.2906994398616826,
+    "mAP50": 0.3313124585570696,
+    "mAP50_95": 0.18557783202546282
+  },
+  "per_class": [
+    {
+      "model": "model_a_320",
+      "split": "test",
+      "class_id": 0,
+      "class_name": "loose-meat",
+      "ground_truth_boxes": 3,
+      "precision": 1.0,
+      "recall": 0.0,
+      "mAP50": 0.0403030303030303,
+      "mAP50_95": 0.030242424242424237,
+      "status": "evaluated"
+    },
+    {
+      "model": "model_a_320",
+      "split": "test",
+      "class_id": 1,
+      "class_name": "packaging-error",
+      "ground_truth_boxes": 23,
+      "precision": 0.5263397997715602,
+      "recall": 0.3867631822710021,
+      "mAP50": 0.3918070952258689,
+      "mAP50_95": 0.09313441423233437,
+      "status": "evaluated"
+    },
+    {
+      "model": "model_a_320",
+      "split": "test",
+      "class_id": 2,
+      "class_name": "twisted-meat",
+      "ground_truth_boxes": 4,
+      "precision": 1.0,
+      "recall": 0.0,
+      "mAP50": 0.04664728682170542,
+      "mAP50_95": 0.029164728682170543,
+      "status": "evaluated"
+    },
+    {
+      "model": "model_a_320",
+      "split": "test",
+      "class_id": 3,
+      "class_name": "unsealed",
+      "ground_truth_boxes": 49,
+      "precision": 0.8261820324943967,
+      "recall": 0.7760345771757284,
+      "mAP50": 0.8464924218776737,
+      "mAP50_95": 0.5897697609449221,
+      "status": "evaluated"
+    },
+    {
+      "model": "model_a_320",
+      "split": "test",
+      "class_id": 4,
+      "class_name": "wrinkle",
+      "ground_truth_boxes": 0,
+      "precision": null,
+      "recall": null,
+      "mAP50": null,
+      "mAP50_95": null,
+      "status": "not_evaluable_no_ground_truth"
+    }
+  ],
+  "settings": {
+    "imgsz": 320,
+    "batch": 4,
+    "device": 0,
+    "split": "test",
+    "conf": 0.001,
+    "iou": 0.7,
+    "max_det": 300,
+    "half": false,
+    "rect": false,
+    "augment": false,
+    "workers": 0,
+    "plots": true,
+    "save_json": true,
+    "seed": 42
+  },
+  "checkpoint": "C:\\MMA3001\\project\\runs\\experiment_a_320\\weights\\best.pt",
+  "checkpoint_sha256": "ac8f809c6eb979ec5a63c85783fc5f2feb8be542c494f388c2db60dea1e3a33f"
+}

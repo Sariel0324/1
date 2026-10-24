@@ -1,0 +1,44 @@
+# Data and checkpoints are supplied separately.
+dataset/
+training_dataset/
+**/evaluation_dataset/
+*.pt
+weights/
+training_data.yaml
+original_dataset_hashes.json
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.matplotlib/
+.ultralytics/
+test_temp*/
+.submission_check/
+*.cache
+*.log
+*.zip
+# Keep compact numerical/plot evidence; exclude image-bearing generated assets.
+runs/**/weights/
+runs/**/*.jpg
+runs/**/console.log
+results/**/*.jpg
+results/**/predictions.json
+results/**/pytest_initial_temp_error.*
+results/**/pytest_report.xml
+# Credentials, editor-local settings and machine-specific test metadata.
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.pfx
+*.p12
+.aws/
+.ssh/
+.vscode/
+.idea/
+results/**/pytest_*.xml
+*.tmp
+*.bak

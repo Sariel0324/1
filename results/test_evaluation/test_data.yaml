@@ -1,0 +1,11 @@
+path: C:/MMA3001/project/results/test_evaluation/evaluation_dataset
+train: test/images
+val: test/images
+test: test/images
+names:
+- loose-meat
+- packaging-error
+- twisted-meat
+- unsealed
+- wrinkle
+nc: 5

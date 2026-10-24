@@ -1,0 +1,24 @@
+[
+  {
+    "model": "model_a_320",
+    "split": "test",
+    "images": 80,
+    "ground_truth_boxes": 79,
+    "imgsz": 320,
+    "precision": 0.8381304580664892,
+    "recall": 0.2906994398616826,
+    "mAP50": 0.3313124585570696,
+    "mAP50_95": 0.18557783202546282
+  },
+  {
+    "model": "model_b_640",
+    "split": "test",
+    "images": 80,
+    "ground_truth_boxes": 79,
+    "imgsz": 640,
+    "precision": 0.8571293650773102,
+    "recall": 0.30190771960958296,
+    "mAP50": 0.3579943128090216,
+    "mAP50_95": 0.1874157057202131
+  }
+]
